@@ -1,11 +1,11 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Yefim Sokolov <https://github.com/sokolcom>']
 edition = '2021'
 homepage = 'https://substrate.io'
 license = 'Unlicense'
-name = 'frontier-template-runtime'
+name = 'nft_diplomas_substrate_runtime'
 publish = false
-repository = 'https://github.com/substrate-developer-hub/frontier-node-template/'
+repository = 'https://github.com/sokolcom/nft-diplomas-substrate-node/'
 version = '0.0.0'
 
 [package.metadata.docs.rs]

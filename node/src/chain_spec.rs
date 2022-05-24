@@ -1,4 +1,4 @@
-use frontier_template_runtime::{
+use nft_diplomas_substrate_runtime::{
 	AccountId, AuraConfig, BalancesConfig, EVMConfig, EthereumConfig, GenesisConfig, GrandpaConfig,
 	Signature, SudoConfig, SystemConfig, WASM_BINARY,
 };

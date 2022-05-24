@@ -1,13 +1,13 @@
 [package]
-authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+authors = ['Yefim Sokolov <https://github.com/sokolcom>']
 build = 'build.rs'
-description = 'A fresh FRAME-based Substrate node, ready for hacking.'
+description = 'Frontier-based Substrate node'
 edition = '2021'
 homepage = 'https://substrate.io'
 license = 'Unlicense'
-name = 'frontier-template-node'
+name = 'nft_diplomas_substrate_node'
 publish = false
-repository = 'https://github.com/substrate-developer-hub/frontier-node-template/'
+repository = 'https://github.com/sokolcom/nft-diplomas-substrate-node/'
 version = '0.0.0'
 
 [package.metadata.docs.rs]
@@ -19,11 +19,11 @@ git = 'https://github.com/paritytech/substrate'
 version = '3.0.0'
 
 [features]
-aura = ['frontier-template-runtime/aura']
+aura = ['nft_diplomas_substrate_runtime/aura']
 default = ['aura']
-manual-seal = ['frontier-template-runtime/manual-seal']
+manual-seal = ['nft_diplomas_substrate_runtime/manual-seal']
 rpc_binary_search_estimate = ['fc-rpc/rpc_binary_search_estimate']
-runtime-benchmarks = ['frontier-template-runtime/runtime-benchmarks']
+runtime-benchmarks = ['nft_diplomas_substrate_runtime/runtime-benchmarks']
 
 [dependencies]
 async-trait = '0.1'
@@ -83,7 +83,7 @@ git = 'https://github.com/paritytech/substrate'
 branch = 'master'
 git = 'https://github.com/paritytech/substrate'
 
-[dependencies.frontier-template-runtime]
+[dependencies.nft_diplomas_substrate_runtime]
 default-features = false
 features = ['std']
 path = '../runtime'

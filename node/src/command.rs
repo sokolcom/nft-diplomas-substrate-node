@@ -19,7 +19,7 @@ use std::sync::Arc;
 
 use clap::Parser;
 use frame_benchmarking_cli::BenchmarkCmd;
-use frontier_template_runtime::Block;
+use nft_diplomas_substrate_runtime::Block;
 use sc_cli::{ChainSpec, RuntimeVersion, SubstrateCli};
 use sc_service::PartialComponents;
 
@@ -66,7 +66,7 @@ impl SubstrateCli for Cli {
 	}
 
 	fn native_runtime_version(_: &Box<dyn ChainSpec>) -> &'static RuntimeVersion {
-		&frontier_template_runtime::VERSION
+		&nft_diplomas_substrate_runtime::VERSION
 	}
 }
 
